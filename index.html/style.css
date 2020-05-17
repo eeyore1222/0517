@@ -1,3 +1,22 @@
-h1{
-    color:blue;
+@font-face{
+    font-family: GenSekiGothic-B;
+    src: url(GenSekiGothic-B.ttc);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 30px;
+}
+
+#logo span{
+    font-family:GenSekiGothic-B ;
+    font-size: 36px;
+    font-weight: 900;
 }
