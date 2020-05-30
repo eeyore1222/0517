@@ -13,6 +13,14 @@ nav{
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 30px;
+    /*定位 fixed：固定*/
+    position: fixed;
+    /*上：0 or bottom left right...*/
+    top:0px;
+    background: rgba(0,0,0,0.5);
+    /*文字顏色*/
+    color:white;
+    width: 100%;
 }
 
 #logo span{
@@ -29,12 +37,21 @@ nav{
 
 #nav a{
     text-decoration: none;
-    color: brown;
+    color: white;
     font-size: 20px;
     transition: 0.3s;
 }
-
+/*滑入*/
 #nav a:hover{
     color: darkred;
     font-size: 22px;
+}
+
+#banner{
+    background-image: url(./font/Jaa1CwV.jpg);
+    /*cover=填滿*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*指跟螢幕一樣高100% vh=螢幕高度*/
 }
